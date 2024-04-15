@@ -1,30 +1,17 @@
-# React + TypeScript + Vite
+I have created this Application using React Js with Typescript for css I have used Tailwind-css.
+  1.This weather Application works on the two apis calls.
+  2.Src consist of the entire code for the application.
+  3.I have created 3 folder that are Components,pages,style
+    components folder->It consist of all the components to built the pages like header,footer,layout,Weather.
+    pages folder->It consist of all the pages to display the content like Home page, About, Pagenotfound ,Weatherdetails.
+    style->It consist of all css files in it.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+                                Run the Application
+->To start application we have to install Node modules using this command ->npm install
+->Then we can start the application using ->npm run dev
 
-Currently, two official plugins are available:
+                               Application Furtures
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+->It contains Home page which display all the countries in the world we have scroll down to see the countries,cities,population.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+->By Clicking on the city it will redirects to the weather details page where it shows temperature,pressure,descripition.
